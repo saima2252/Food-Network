@@ -1,12 +1,16 @@
 body{
     font-family:'Montserrat', sans-serif ; 
+    margin: 0;
 }
 h1{
     font-size: 60px;
     color: #575757;
 }
+h3{
+    font-size: 29px;
+}
 p{
-    font-size: 20px;
+    font-size: 18px;
     color: #828282;
     font-style: normal;
     font-weight: 500;
@@ -16,13 +20,15 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
     padding-left: 5%;
 }
 .half-width img{
-    width: 95%;
+    padding-top: 45px;
+    width: 90%;
 
 }
 .link-button{
@@ -33,3 +39,63 @@ section{
     font-weight: 700;
     background-image: linear-gradient(rgb(219, 130, 130), rgb(240, 35, 35) );
 }
+
+.About-Me{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+   
+    
+}
+.half-percent{
+    width: 50%;
+    padding-left: 4%;
+}
+
+
+.half-percent img{
+    width: 55%;
+    
+}
+.recipie-1st-portion{
+    width: 706px;
+    height: 200px;
+    top: 1574px;
+    left: 367px;
+    justify-content: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+.recipie-2nd-portion{
+    text-align:center;
+    display: flex;
+    margin: auto;
+    height: 570px;
+    padding:10px;
+    border-radius: 5px;
+}
+.one-third-width {
+    
+    width: 1239px;
+    height: 500px;
+    border-radius: 7%;
+    margin: 10px 20px;
+    padding: 5px 10px;
+    box-shadow:  10px 10px 15px grey;
+}
+
+
+.image{
+    width:349px;
+    height: 213px;
+    padding: 5px 5px;
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto ;
+    border-radius: 7% ;
+    
+}
+
+
